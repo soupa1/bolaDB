@@ -13,16 +13,16 @@ function setup(){
 function draw(){
     background("white");
     if(keyDown(LEFT_ARROW)){
-        changePosition(-5,0);
+        changePosition(-10,0);
     }
     else if(keyDown(RIGHT_ARROW)){
-        changePosition(5,0);
+        changePosition(10,0);
     }
     else if(keyDown(UP_ARROW)){
-        changePosition(0,-5);
+        changePosition(0,-10);
     }
     else if(keyDown(DOWN_ARROW)){
-        changePosition(0,+5);
+        changePosition(0,+10);
     }
     drawSprites();
 }
